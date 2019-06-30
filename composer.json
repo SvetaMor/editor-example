@@ -1,0 +1,21 @@
+{
+    "name": "svetamor/editor-example-package",
+    "description": "An example of the visual editor",
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Svetlana Mor",
+            "email": "acura88@yandex.ru"
+        }
+    ],
+    "autoload": {
+   	"psr-4": {
+   		"svetamor\\editorwidget\\":"src/"
+   	}
+    },
+    "minimum-stability": "stable"
+}
