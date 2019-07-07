@@ -1,7 +1,3 @@
-<form name="myform" action="#" method="post" onsubmit="return save()">
-  <p>
-    <input type="hidden" id="content" name="content" value="" />
-  </p>
   <script type="text/javascript">
     // Вывод кнопок редактирования
     document.write("<input type='button' value='B' onclick='setBold()' />");
@@ -35,7 +31,3 @@
       return true;
     }
   </script>
-  <p>
-    <input type="submit" value="Отправить" />
-  </p>
-</form>
